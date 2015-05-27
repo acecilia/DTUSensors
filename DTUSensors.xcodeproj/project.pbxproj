@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		410C83241B16550000CFF916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83231B16550000CFF916 /* AppDelegate.swift */; };
-		410C83261B16550000CFF916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83251B16550000CFF916 /* ViewController.swift */; };
-		410C83291B16550000CFF916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C83271B16550000CFF916 /* Main.storyboard */; };
 		410C832B1B16550000CFF916 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410C832A1B16550000CFF916 /* Images.xcassets */; };
 		410C832E1B16550000CFF916 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410C832C1B16550000CFF916 /* LaunchScreen.xib */; };
 		410C833A1B16550100CFF916 /* DTUSensorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83391B16550100CFF916 /* DTUSensorsTests.swift */; };
+		410C834E1B16553100CFF916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83431B16553100CFF916 /* AppDelegate.swift */; };
+		410C834F1B16553100CFF916 /* CentralManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83441B16553100CFF916 /* CentralManagerViewController.swift */; };
+		410C83501B16553100CFF916 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83451B16553100CFF916 /* PeripheralViewController.swift */; };
+		410C83511B16553100CFF916 /* ACDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83461B16553100CFF916 /* ACDetailViewController.swift */; };
+		410C83521B16553100CFF916 /* GPSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83471B16553100CFF916 /* GPSDetailViewController.swift */; };
+		410C83531B16553100CFF916 /* GCPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83481B16553100CFF916 /* GCPDetailViewController.swift */; };
+		410C83541B16553100CFF916 /* TransmisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C83491B16553100CFF916 /* TransmisionViewController.swift */; };
+		410C83551B16553100CFF916 /* TransmissionParametersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C834A1B16553100CFF916 /* TransmissionParametersController.swift */; };
+		410C83561B16553100CFF916 /* CustomObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C834B1B16553100CFF916 /* CustomObjects.swift */; };
+		410C83571B16553100CFF916 /* CMMotionManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C834C1B16553100CFF916 /* CMMotionManagerController.swift */; };
+		410C83581B16553100CFF916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C834D1B16553100CFF916 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,22 @@
 /* Begin PBXFileReference section */
 		410C831E1B16550000CFF916 /* DTUSensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTUSensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410C83221B16550000CFF916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		410C83231B16550000CFF916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		410C83251B16550000CFF916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		410C83281B16550000CFF916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		410C832A1B16550000CFF916 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		410C832D1B16550000CFF916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		410C83331B16550100CFF916 /* DTUSensorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTUSensorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410C83381B16550100CFF916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		410C83391B16550100CFF916 /* DTUSensorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTUSensorsTests.swift; sourceTree = "<group>"; };
+		410C83431B16553100CFF916 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410C83441B16553100CFF916 /* CentralManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralManagerViewController.swift; sourceTree = "<group>"; };
+		410C83451B16553100CFF916 /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		410C83461B16553100CFF916 /* ACDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACDetailViewController.swift; sourceTree = "<group>"; };
+		410C83471B16553100CFF916 /* GPSDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSDetailViewController.swift; sourceTree = "<group>"; };
+		410C83481B16553100CFF916 /* GCPDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCPDetailViewController.swift; sourceTree = "<group>"; };
+		410C83491B16553100CFF916 /* TransmisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransmisionViewController.swift; sourceTree = "<group>"; };
+		410C834A1B16553100CFF916 /* TransmissionParametersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransmissionParametersController.swift; sourceTree = "<group>"; };
+		410C834B1B16553100CFF916 /* CustomObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomObjects.swift; sourceTree = "<group>"; };
+		410C834C1B16553100CFF916 /* CMMotionManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMotionManagerController.swift; sourceTree = "<group>"; };
+		410C834D1B16553100CFF916 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +93,17 @@
 		410C83201B16550000CFF916 /* DTUSensors */ = {
 			isa = PBXGroup;
 			children = (
-				410C83231B16550000CFF916 /* AppDelegate.swift */,
-				410C83251B16550000CFF916 /* ViewController.swift */,
-				410C83271B16550000CFF916 /* Main.storyboard */,
+				410C83431B16553100CFF916 /* AppDelegate.swift */,
+				410C83441B16553100CFF916 /* CentralManagerViewController.swift */,
+				410C83451B16553100CFF916 /* PeripheralViewController.swift */,
+				410C83461B16553100CFF916 /* ACDetailViewController.swift */,
+				410C83471B16553100CFF916 /* GPSDetailViewController.swift */,
+				410C83481B16553100CFF916 /* GCPDetailViewController.swift */,
+				410C83491B16553100CFF916 /* TransmisionViewController.swift */,
+				410C834A1B16553100CFF916 /* TransmissionParametersController.swift */,
+				410C834B1B16553100CFF916 /* CustomObjects.swift */,
+				410C834C1B16553100CFF916 /* CMMotionManagerController.swift */,
+				410C834D1B16553100CFF916 /* Main.storyboard */,
 				410C832A1B16550000CFF916 /* Images.xcassets */,
 				410C832C1B16550000CFF916 /* LaunchScreen.xib */,
 				410C83211B16550000CFF916 /* Supporting Files */,
@@ -192,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410C83291B16550000CFF916 /* Main.storyboard in Resources */,
+				410C83581B16553100CFF916 /* Main.storyboard in Resources */,
 				410C832E1B16550000CFF916 /* LaunchScreen.xib in Resources */,
 				410C832B1B16550000CFF916 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410C83261B16550000CFF916 /* ViewController.swift in Sources */,
-				410C83241B16550000CFF916 /* AppDelegate.swift in Sources */,
+				410C83531B16553100CFF916 /* GCPDetailViewController.swift in Sources */,
+				410C834F1B16553100CFF916 /* CentralManagerViewController.swift in Sources */,
+				410C83511B16553100CFF916 /* ACDetailViewController.swift in Sources */,
+				410C83551B16553100CFF916 /* TransmissionParametersController.swift in Sources */,
+				410C83501B16553100CFF916 /* PeripheralViewController.swift in Sources */,
+				410C83561B16553100CFF916 /* CustomObjects.swift in Sources */,
+				410C83541B16553100CFF916 /* TransmisionViewController.swift in Sources */,
+				410C83521B16553100CFF916 /* GPSDetailViewController.swift in Sources */,
+				410C834E1B16553100CFF916 /* AppDelegate.swift in Sources */,
+				410C83571B16553100CFF916 /* CMMotionManagerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +268,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		410C83271B16550000CFF916 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410C83281B16550000CFF916 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		410C832C1B16550000CFF916 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,9 +366,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DTUSensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,7 +379,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DTUSensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
