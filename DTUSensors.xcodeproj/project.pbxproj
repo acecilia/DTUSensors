@@ -21,8 +21,6 @@
 		410C83561B16553100CFF916 /* CustomObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C834B1B16553100CFF916 /* CustomObjects.swift */; };
 		410C83571B16553100CFF916 /* CMMotionManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C834C1B16553100CFF916 /* CMMotionManagerController.swift */; };
 		410C83581B16553100CFF916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C834D1B16553100CFF916 /* Main.storyboard */; };
-		4114E7C11B1E0CEB00416FDA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4114E7BF1B1E0CEB00416FDA /* LICENSE */; };
-		4114E7C21B1E0CEB00416FDA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4114E7C01B1E0CEB00416FDA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +52,6 @@
 		410C834B1B16553100CFF916 /* CustomObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomObjects.swift; sourceTree = "<group>"; };
 		410C834C1B16553100CFF916 /* CMMotionManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMotionManagerController.swift; sourceTree = "<group>"; };
 		410C834D1B16553100CFF916 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		4114E7BF1B1E0CEB00416FDA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4114E7C01B1E0CEB00416FDA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +75,6 @@
 		410C83151B16550000CFF916 = {
 			isa = PBXGroup;
 			children = (
-				4114E7BF1B1E0CEB00416FDA /* LICENSE */,
-				4114E7C01B1E0CEB00416FDA /* README.md */,
 				410C83201B16550000CFF916 /* DTUSensors */,
 				410C83361B16550100CFF916 /* DTUSensorsTests */,
 				410C831F1B16550000CFF916 /* Products */,
@@ -224,7 +218,6 @@
 			files = (
 				410C83581B16553100CFF916 /* Main.storyboard in Resources */,
 				410C832E1B16550000CFF916 /* LaunchScreen.xib in Resources */,
-				4114E7C11B1E0CEB00416FDA /* LICENSE in Resources */,
 				410C832B1B16550000CFF916 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +245,6 @@
 				410C83541B16553100CFF916 /* TransmisionViewController.swift in Sources */,
 				410C83521B16553100CFF916 /* GPSDetailViewController.swift in Sources */,
 				410C834E1B16553100CFF916 /* AppDelegate.swift in Sources */,
-				4114E7C21B1E0CEB00416FDA /* README.md in Sources */,
 				410C83571B16553100CFF916 /* CMMotionManagerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
