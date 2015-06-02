@@ -9,7 +9,7 @@
         <!--Select your BLE device-->
         <scene sceneID="tcO-RN-TnJ">
             <objects>
-                <tableViewController id="cNL-rb-5WG" customClass="CentralManagerViewController" customModule="DTUSensors3" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="cNL-rb-5WG" customClass="CentralManagerViewController" customModule="DTUSensors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Y6H-YC-AOV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
         <!--AC Detail-->
         <scene sceneID="yUG-lL-AsK">
             <objects>
-                <viewController title="Detail" id="JEX-9P-axG" userLabel="AC Detail" customClass="ACDetailViewController" customModule="DTUSensors3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Detail" id="JEX-9P-axG" userLabel="AC Detail" customClass="ACDetailViewController" customModule="DTUSensors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SYR-Wa-9uf"/>
                         <viewControllerLayoutGuide type="bottom" id="GAO-Cl-Wes"/>
@@ -104,7 +104,7 @@
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06h-P0-lTb">
                                 <rect key="frame" x="100" y="164" width="400" height="122"/>
-                                <string key="text">Maximum absolute expected value coming from the sensor. The accelerometer reports values for each axis in units of g-force, where a value of 1.0 relationsepresents acceleration of about +1 g along a given axis. Maximum usual range for acceleration is from -3 g to +3 g</string>
+                                <string key="text">Maximum absolute expected value coming from the sensor. The accelerometer reports values for each axis in units of g-force, where a value of 1.0 represents acceleration of about +1 g along a given axis. Maximum usual range for acceleration is from -3 g to +3 g</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -151,7 +151,7 @@
         <!--GPS Detail-->
         <scene sceneID="5m6-bm-XQu">
             <objects>
-                <viewController id="9jb-cQ-HSW" userLabel="GPS Detail" customClass="GPSDetailViewController" customModule="DTUSensors3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9jb-cQ-HSW" userLabel="GPS Detail" customClass="GPSDetailViewController" customModule="DTUSensors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cyk-Wz-K44"/>
                         <viewControllerLayoutGuide type="bottom" id="bKp-TC-PJA"/>
@@ -233,7 +233,7 @@
         <!--GCP Detail-->
         <scene sceneID="hdB-ns-f0D">
             <objects>
-                <viewController id="ZDf-Kh-7mU" userLabel="GCP Detail" customClass="GCPDetailViewController" customModule="DTUSensors3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZDf-Kh-7mU" userLabel="GCP Detail" customClass="GCPDetailViewController" customModule="DTUSensors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Ex-nV-bct"/>
                         <viewControllerLayoutGuide type="bottom" id="znf-lP-6Mu"/>
@@ -315,7 +315,7 @@
         <!--Configure the transmission-->
         <scene sceneID="RRN-8F-VwC">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cp4-16-JRy" customClass="PeripheralViewController" customModule="DTUSensors3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cp4-16-JRy" customClass="PeripheralViewController" customModule="DTUSensors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TiA-6y-LMn"/>
                         <viewControllerLayoutGuide type="bottom" id="7Fd-Yd-Vrt"/>
@@ -449,7 +449,7 @@
         <!--Transmitting...-->
         <scene sceneID="5hE-bh-esE">
             <objects>
-                <tableViewController id="zuF-AB-7MK" customClass="TransmisionViewController" customModule="DTUSensors3" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="zuF-AB-7MK" customClass="TransmisionViewController" customModule="DTUSensors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bVR-JO-z6G">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
